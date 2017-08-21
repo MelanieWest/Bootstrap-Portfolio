@@ -4,29 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type = "text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type = "text/css" href="assets/css/style.css">
-    <title>Melanie</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" type = "text/css" href="assets/css/style.css">  -->
+    <title> Melanie </title>
 </head>
+
 <body>
-      <header class = "strip">
-    <div class="container">
-        <a href="index.html" id="logo">Melanie West</a>
-      <nav>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-        <a href="index.html">About</a>
-      </nav>
+
+<div class="row">
+    <a href="index.html" id="logo">Melanie West</a>
+  <nav>
+    <div class="col">
+      <a href="index.html">About</a>
     </div>
-  </header>
+    <div class="col">
+      <a href="portfolio.html">Portfolio</a>
+    </div>
+    <div class = "col">
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+</div> 
+
+  <div class = "row">
+    <div class = "port" class = "col">
+      <h2> Portfolio </h2> 
+      <div class = "row">
+        <div class = "col">
+          <iframe src="https://melaniewest.github.io/Animal/" height="160" width="220"></iframe>
+        </div>
+        <div class = "col">
+          <iframe src="https://melaniewest.github.io/Beach/" height="160" width="220"></iframe>
+        </div>
+      </div>    <!--end of first row within a column -->
+      <div class = "row">
+        <div class = "col">
+          <iframe height = "160" width="220"></iframe>
+        </div>
+        <div class = "col">
+          <iframe height = "160" width="220"></iframe>
+        </div>
+        </div>  <!--end of second row within a column -->
+      </div> <!--end of first column within a row -->
+
+      <div class = "connections" class = "col">   <!--connections make second column in the row -->
+          <h1> Connect </h1>
+      <div class = "row">
+        <div class = "col">
+          <img id = "cgh" src="assets/images/GitHub.png" height="30" width= "30" alt="GitHub">
+        </div>
+        <div class = "col">
+          <img id = "cli" src="assets/images/Linkedin_001.jpg" height="30" width= "30" alt="LinkedIn">
+        </div>
+        <div class = "col">
+          <img id = "cso" src="assets/images/stack.png" height="30" width= "30" alt="StackOverflow">
+        </div>
+        </div>
+      </div>   <!--end of row -->
 
 
-    <div class = "connections">
-        <h1> Connect </h1>
-        <img id = "cgh" src="assets/images/GitHub.png" alt="GitHub">
-        <img id = "cli" src="assets/images/Linkedin_001.jpg" alt="LinkedIn">
-        <img id = "cso" src="assets/images/stack.png" alt="StackOverflow">
-    </div>
+
     <footer> &copy 2017 </footer>
 </body>
 </html>
